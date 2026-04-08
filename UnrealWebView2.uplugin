@@ -1,0 +1,23 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "1.0",
+	"FriendlyName": "UnrealWebView2",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Samuel Inn",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UnrealWebView2",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
