@@ -17,7 +17,7 @@ class UNREALWEBVIEW2_API SWebView2Viewer : public SCompoundWidget
 {
 public:
     SLATE_BEGIN_ARGS(SWebView2Viewer)
-            : _URL(TEXT("https://www.hdec.com/"))
+            : _URL(TEXT("https://bing.com/"))
               , _Color(FColor(0, 0, 0, 0))
               , _DevTools(false)
               , _ShowAddressBar(false)

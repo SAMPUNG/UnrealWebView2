@@ -72,7 +72,8 @@ enum class EWebMessageType : uint8
 {
     MouseCursor UMETA(DisplayName = "鼠标光标"),
 
-    Movement UMETA(DisplayName = "视角移动"),
+    CameraMovement UMETA(DisplayName = "相机移动"),
+    CameraReset UMETA(DisplayName = "相机复位"),
 
     Pressed UMETA(DisplayName = "键位摁下"),
     Released UMETA(DisplayName = "键位释放"),
@@ -298,7 +299,11 @@ public:
         }
         if (Upper == "CAMERAMOVE")
         {
-            return EWebMessageType::Movement;
+            return EWebMessageType::CameraMovement;
+        }
+        if (Upper == "CAMERARESET")
+        {
+            return EWebMessageType::CameraReset;
         }
         return EWebMessageType::Undefined;
     }

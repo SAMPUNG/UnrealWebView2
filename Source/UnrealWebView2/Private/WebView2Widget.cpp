@@ -8,7 +8,7 @@ UWebView2Widget::UWebView2Widget(const FObjectInitializer& ObjectInitializer)
     : Super(ObjectInitializer)
       , bDevTools(false), bShowAddressBar(false), bShowControls(false), bShowTouchArea(false)
       , BackgroundColor(FColor(0, 0, 0, 0))
-      , URL(TEXT("https://www.hdec.com/"))
+      , URL(TEXT("https://bing.com/"))
 {
 }
 
